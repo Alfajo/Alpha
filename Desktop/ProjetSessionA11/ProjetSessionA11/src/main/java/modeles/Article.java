@@ -81,7 +81,7 @@ public class Article {
     }
 
     
-    //toString()
+    //toString()-----
     @Override
     public String toString() {
         return "Article{" + "nomArticle=" + nomArticle + ", descriptionArticle=" + descriptionArticle + ", photoArticle=" + photoArticle + ", prixArticle=" + prixArticle + ", quantiteStock=" + quantiteStock + '}';
