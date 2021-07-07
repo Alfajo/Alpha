@@ -80,6 +80,8 @@ public class Article {
         this.quantiteStock = quantiteStock;
     }
 
+    
+    //toString()
     @Override
     public String toString() {
         return "Article{" + "nomArticle=" + nomArticle + ", descriptionArticle=" + descriptionArticle + ", photoArticle=" + photoArticle + ", prixArticle=" + prixArticle + ", quantiteStock=" + quantiteStock + '}';
